@@ -1,0 +1,24 @@
+body{
+  background-image: url('../images/money.jpg');
+
+
+}
+
+#container{
+  margin: auto;
+  padding: 15px;
+  border: 2px #000 double;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #e2947c;
+  max-width: 25%;
+  min-height: 75%;
+
+
+}
+
+label, #service::after{
+  content:"\A";
+
+
+}
