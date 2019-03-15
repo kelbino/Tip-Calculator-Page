@@ -9,12 +9,15 @@
 
   <div id="container">
     <h1>TIP CALCULATOR</h1>
-    <form>
+    <form class="options">
       <label>How much was your bill</label>
-      <input type="text" value="Enter Bill Amount" id="bill"></input>
+      <input type="text" placeholder="Enter Bill Amount" id="bill"></input>
+    </form>
 
+      <br/>
+    <form class="options">
       <label>How Was Your Service?</label>
-      <select id="service">
+      <select id="service" placeholder="--Choose an Option--">
         <option>--Choose an Option--</option>
         <option>&#9733; Would Not Recommend</option>
         <option>&#9733; &#9733; Could've been better</option>
@@ -23,10 +26,15 @@
         <option>&#9733; &#9733; &#9733; &#9733; &#9733; Great Service, will
           Recommend to a friend</option>
       </select>
+    </form>
 
+    <br/>
+    <form class="options">
       <label>How many people are sharing the bill?</label>
-      <input type="text" value="Enter Number Of Customers" id="split"></input>
+      <input type="text" placeholder="Enter Number Of Customers" id="split"></input>
+    </form>
 
+    <form class="">
       <input type="button" value="Calculate" id="button"></input>
      </form>
   </div>

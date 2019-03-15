@@ -5,20 +5,41 @@ body{
 }
 
 #container{
-  margin: auto;
-  padding: 15px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 50px 5px;
+  max-width: 35%;
   border: 2px #000 double;
   border-radius: 5px;
-  text-align: center;
   background-color: #e2947c;
-  max-width: 25%;
-  min-height: 75%;
+
+}
+
+
+.options{
+  padding: 20px;
 
 
 }
 
-label, #service::after{
-  content:"\A";
+form input[type="button"]{
+  padding: 20px 50px;
+  border: 2px #f2bf7d solid;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #f2bf7d
+
+}
+
+input[type="text"]:focus{
+  border: 3px #02f768 solid;
+  background-color: #f2bf7d;
+
+}
+
+form input[type="text"]{
+  font-style
 
 
 }
